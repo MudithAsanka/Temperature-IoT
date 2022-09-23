@@ -1,0 +1,20 @@
+.container {
+    margin: 100px;
+}
+
+.templable {
+  font-size: 60px;
+}
+
+.tempvalue {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.cold {
+  color: blue;
+}
+
+.hot {
+  color: red;
+}

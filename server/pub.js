@@ -10,7 +10,7 @@ client.on("connect", function(){
         let random = Math.floor(Math.random()*50);
         console.log(random);
         if(random < 30){
-            client.publish('magicbit-temperature-assignment', 'Temperature' + random.toString() + '.');
+            client.publish('magicbit-temperature-assignment',random.toString());
         }
-    }), 1000;
+    }, 2000);
 });
